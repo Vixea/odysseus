@@ -1,12 +1,17 @@
 [package]
 name = "odysseus"
-version = "0.1.0"
+version = "0.1.0-alpha1"
 edition = "2021"
 categories = ["graphics", "gui", "rendering"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+bytemuck = "1.13.1"
+env_logger = "0.10.0"
+pollster = "0.3.0"
+wgpu = "0.17.0"
+winit = "0.28.6"
 
 
 
